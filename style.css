@@ -48,7 +48,7 @@ body{
     margin-top: 5px;
     margin-bottom: 30px;
     background-color: #bdd6f6e4; 
-    box-shadow: black 10px 5px;   
+    box-shadow: black 5px 5px;   
 }
 
 .button {
@@ -61,7 +61,7 @@ body{
     font-weight: bold;
     margin-bottom: 40px;
     cursor: pointer;
-    box-shadow: black 10px 5px;
+    box-shadow: black 5px 5px;
 }
 
 .result {
@@ -72,8 +72,8 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(44, 151, 55);
-    box-shadow: 10px 5px rgb(17, 121, 33);
+    border: 2px solid #2c9737;
+    box-shadow: 10px 5px #117921;
     margin-bottom: 20px;
     user-select: none;
     transition: transform 0.8s;
