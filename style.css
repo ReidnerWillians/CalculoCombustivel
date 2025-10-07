@@ -124,3 +124,25 @@ body{
     display: inline;
 }
 
+.sobre {
+    max-width: 620px;
+    padding: 24px 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sobre p{
+    margin-bottom: 8px;
+    line-height: 150%;
+}
+
+.button-calcular{
+    border: 2px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
