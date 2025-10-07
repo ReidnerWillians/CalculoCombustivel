@@ -20,6 +20,11 @@ function calcular(event) { //event(esta vinculado a um formulario HTML, como um 
     alcoolSpan.innerHTML = 'Alcool R$: ' + alcoolInput
 
     contentResult.classList.remove('hide')
+
+    // Adiciona um delay de 10 segundos antes de recarregar a página
+    // setTimeout(() => {
+    //     location.reload()
+    // }, 10000)
 }
 
 
