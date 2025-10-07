@@ -28,9 +28,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border: solid 1px white;
-    box-shadow: 2px 2px 2px #e7e0e0;
+    flex-direction: column;    
     max-width: 600px;
     padding: 0 20px;
 }
@@ -96,4 +94,28 @@ img {
     font-weight: bold;
 }
 
+.info{
+    position: fixed;
+    right: 10px;
+    bottom: 12px;
+}
+
+.info-img{
+    width: 66px;
+    height: 66px;
+}
+
+.tooltip{
+    color:#f7f9f8;
+    background-color: #2a2a2a;
+    padding: 10px 8px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    display: none;
+}
+
+.info:hover .tooltip {
+    display: inline;
+}
 
