@@ -12,31 +12,31 @@
 
     <main class="container">
 
-        <img src="/Imagens/bomba_Combustivel.png" alt="Bomba de Combustível" width="200px">
-        <h1 id ="title">Qual é a melhor opção?</h1>
+        <img class="logo" src="/Imagens/bomba_Combustivel.png" alt="Bomba de Combustível">
+        <h1 id="title">Qual é a melhor opção?</h1>
 
-        <form class="form">
+        <form onsubmit="calcular(event)" class="form">
             <label>Gasolina preço por litro</label>
-            <input class="input" type="number" placeholder="Digite o valor" min="1" step="0.01" required>
+            <input id="gasolina" class="input" type="number" placeholder="Digite o valor" min="1" step="0.01" required>
 
             <label>Alcool preço por litro</label>
-            <input class="input" type="number" placeholder="Digite o valor" min="1" step="0.01" required>
+            <input id="alcool" class="input" type="number" placeholder="Digite o valor" min="1" step="0.01" required>
 
-            <input class="button" type="submit" value="Calcular">
+            <input id="botao" class="button" type="submit" value="Calcular">
         </form>
 
-        <section class="result hide">
-            <span class="text-result">Compensa usar alcool</span>
+        <section id="content-result" class="result hide">
+            <span id="text-result" class="text-result">Compensa usar alcool</span>
 
-            <span>Alcool R$:</span>
+            <span id="alcool-result">Alcool R$:</span>
 
-            <span>Gasolina R$:</span>
+            <span id="gasolina-result">Gasolina R$:</span>
         </section>
-        
+
     </main>
     <div class="info">
         <span class="tooltip">Veja como é feito o cálculo</span>
-        <a href="#">
+        <a href="calculo.html">
             <img class="info-img" src="/Imagens/info.png
             " alt="Veja como é feito o cálculo">
         </a>
